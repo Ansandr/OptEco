@@ -10,6 +10,7 @@ public class OptEcoConfigurationLoader extends OptEcoLoaderAbstract {
             "[-] OptEco auto-generated plugin.yml" + SYSTEM_LINE_SEPARATOR +
                     "[-]  More help at https://github.com/PlayerNguyen/OptEco/wiki" + SYSTEM_LINE_SEPARATOR +
                     "[-]  Any issue at https://github.com/PlayerNguyen/OptEco/issues" + SYSTEM_LINE_SEPARATOR;
+                    "[-]  Storage types: SQLITE MYSQL,"
 
     public OptEcoConfigurationLoader() {
         super(CONFIG_FILE, HEADER_HELPER, "", false);
