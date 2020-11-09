@@ -18,7 +18,7 @@ public enum OptEcoConfiguration {
     MYSQL_USERNAME("Settings.SQL.MySQL.Username", "root"),
     MYSQL_PASSWORD("Settings.SQL.MySQL.Password", ""),
 
-    SQLITE_FILE("Settings.SQL.SQLite.File", "account.sqlite"),
+    SQLITE_FILE("Settings.SQL.SQLite.File", "account.db"),
 
     SQL_ACCOUNT_TABLE_NAME("Settings.SQL.Table.Accounts", "opteco"),
     SQL_TRANSACT_TABLE_NAME("Settings.SQL.Table.Transactions", "opteco_transaction"),
