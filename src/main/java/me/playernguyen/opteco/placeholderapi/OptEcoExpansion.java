@@ -37,7 +37,7 @@ public class OptEcoExpansion extends PlaceholderExpansion {
         // %opteco_points%
         if (params.equalsIgnoreCase("points")) {
             OptEcoCacheAccount optEcoCacheAccount = OptEco.getInstance().getAccountManager().get(p.getUniqueId());
-            double balance = optEcoCacheAccount.getBalance();
+            double balance = (optEcoCacheAccount != null) ? optEcoCacheAccount.getBalance() : 0;
             return this.plugin.getMessageFormat().numberFormat(balance);
         }
         // %opteco_version%
